@@ -1,0 +1,30 @@
+.buttonGroup {
+    margin-bottom: 1rem;
+
+    button {
+        outline: none;
+        border: 0;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        background: #efefef;
+
+        &:first-of-type {
+            border-top-left-radius: .25rem;
+            border-bottom-left-radius: .25rem;
+        }
+
+        &:last-of-type {
+            border-top-right-radius: .25rem;
+            border-bottom-right-radius: .25rem;
+        }
+
+        &.active {
+            background: #3498db;
+            color: #fff;
+        }
+    }
+}
+
+.optionPanels {
+
+}

@@ -1,0 +1,96 @@
+[
+    {
+        "name": "product",
+        "displayName": "Shirt Type",
+        "type": "productSelector",
+        "defaultOption": "sweater",
+        "options": [
+            "sweater",
+            "tshirt",
+            "polo",
+            "hoodie"
+        ]
+    },
+    {
+        "name": "body",
+        "displayName": "Body Color",
+        "type": "colorSelector",
+        "defaultOption": "white",
+        "options": [
+            "white",
+            "black",
+            "grey",
+            "green",
+            "navy",
+            "blue",
+            "red",
+            "purple",
+            "orange"
+        ]
+    },
+    {
+        "name": "sleeve",
+        "displayName": "Sleeve Color",
+        "type": "colorSelector",
+        "defaultOption": "white",
+        "options": [
+            "white",
+            "black",
+            "grey",
+            "green",
+            "navy",
+            "blue",
+            "red",
+            "purple",
+            "orange"
+        ]
+    },
+    {
+        "name": "graphics",
+        "displayName": "Graphics",
+        "type": "graphicSelect",
+        "defaultOption": "none",
+        "options": {
+            "none": {
+                "displayName": "None",
+                "name": "none"
+            },
+            "text": {
+                "type": "textSelect",
+                "name": "text",
+                "displayName": "Text",
+                "value": "",
+                "font": "Roboto",                
+                "fonts": [
+                    "Roboto",
+                    "PT Serif",
+                    "Dancing Script"
+                ],
+                "colorSelect": {
+                    "name": "text",
+                    "displayName": "Text Color",
+                    "type": "colorSelector",
+                    "selectedOption": "black",
+                    "options": [
+                        "white",
+                        "black",
+                        "grey",
+                        "green",
+                        "navy",
+                        "blue",
+                        "red",
+                        "purple",
+                        "orange"
+                    ]
+                }
+            },
+            "image": {
+                "type": "imageSelect",
+                "name": "image",
+                "displayName": "Image",
+                "defaultImageIndex": 0,
+                "images": []
+            }
+        }
+    }
+]

@@ -1,0 +1,28 @@
+// Simple Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+// App Container
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    max-width: 70rem;
+    margin: 5rem auto;
+    padding: 0 1rem;
+}
+
+.stroke {
+    fill: none;
+    stroke: #000000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1;
+}

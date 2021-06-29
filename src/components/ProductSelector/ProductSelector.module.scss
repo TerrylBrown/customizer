@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.productSelector {
+    input {
+        position: fixed;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: background .2s;
+        
+        &:hover {
+            background: #ddd;
+        }
+
+        svg {
+            height: 70%;
+        }
+    }
+
+    input[checked] + label {
+        border-color: transparent;
+        background: #3498db;
+    }
+}

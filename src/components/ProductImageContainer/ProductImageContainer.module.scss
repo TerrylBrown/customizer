@@ -1,0 +1,26 @@
+.imageWrapper {
+    position: relative;
+    grid-column: span 6;
+
+    svg {
+        max-height: 30rem;
+    }
+}
+
+.graphicsWrapper {
+    position: absolute;
+}
+
+.textWrapper {
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    max-width: 10rem;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.polo { top: 10rem !important; }
+.hoodie { top: 12rem !important; }

@@ -1,0 +1,17 @@
+.controlHeader {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: 1rem;  
+    
+    h2 {
+        line-height: 1;
+    }
+
+    p {
+        line-height: 1.25;
+        font-size: .875rem;
+        text-transform: capitalize;
+        color: #999;
+    }
+}
