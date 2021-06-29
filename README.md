@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Simple Shirt Customizer App Using Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
